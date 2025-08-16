@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: #0b1220; }
+html, body { background: radial-gradient(60% 60% at 50% 20%, rgba(16,185,129,.07), transparent 60%), var(--bg); color: #e5e7eb; }
